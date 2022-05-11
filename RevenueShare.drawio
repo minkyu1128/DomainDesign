@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T08:08:23.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="-hZUFdCgjTn-1x0fKWiC" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T08:40:30.258Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="zC_jV-QduwqAJECGyWNI" version="18.0.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2400" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -183,7 +183,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-16" value="contract_cmpny&#xa;계약정보 회사" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="159" y="263" width="180" height="190" as="geometry" />
+          <mxGeometry x="159" y="263" width="180" height="220" as="geometry" />
         </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="n-eLuSgu54N9HNVizJjh-16" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -232,13 +232,26 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n-eLuSgu54N9HNVizJjh-25" value="rs_rate&#xa;분배수익율" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="n-eLuSgu54N9HNVizJjh-23" vertex="1">
+        <mxCell id="n-eLuSgu54N9HNVizJjh-25" value="cntr_de&#xa;계약일자" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="n-eLuSgu54N9HNVizJjh-23" vertex="1">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eg576fnbaya0GBubzgB0-30" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="n-eLuSgu54N9HNVizJjh-16">
+          <mxGeometry y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Eg576fnbaya0GBubzgB0-31" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Eg576fnbaya0GBubzgB0-30">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eg576fnbaya0GBubzgB0-32" value="rs_rate&#xa;분배수익율" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Eg576fnbaya0GBubzgB0-30">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Eg576fnbaya0GBubzgB0-21" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="n-eLuSgu54N9HNVizJjh-16">
-          <mxGeometry y="150" width="180" height="30" as="geometry" />
+          <mxGeometry y="180" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Eg576fnbaya0GBubzgB0-22" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Eg576fnbaya0GBubzgB0-21">
           <mxGeometry width="30" height="30" as="geometry">
@@ -251,7 +264,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-29" value="contract_creator&#xa;계약정보 크리에이터" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="159" y="513" width="180" height="160" as="geometry" />
+          <mxGeometry x="159" y="513" width="180" height="190" as="geometry" />
         </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-30" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="n-eLuSgu54N9HNVizJjh-29" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -300,7 +313,20 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n-eLuSgu54N9HNVizJjh-35" value="rs_rate&#xa;분배수익율" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="n-eLuSgu54N9HNVizJjh-33" vertex="1">
+        <mxCell id="n-eLuSgu54N9HNVizJjh-35" value="cntr_de&#xa;계약일자" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="n-eLuSgu54N9HNVizJjh-33" vertex="1">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eg576fnbaya0GBubzgB0-24" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="n-eLuSgu54N9HNVizJjh-29">
+          <mxGeometry y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Eg576fnbaya0GBubzgB0-25" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Eg576fnbaya0GBubzgB0-24">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eg576fnbaya0GBubzgB0-26" value="rs_rate&#xa;분배수익율" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Eg576fnbaya0GBubzgB0-24">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -316,7 +342,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n-eLuSgu54N9HNVizJjh-45" value="ch_profit_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" parent="n-eLuSgu54N9HNVizJjh-43" vertex="1">
+        <mxCell id="n-eLuSgu54N9HNVizJjh-45" value="ch_revn_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" parent="n-eLuSgu54N9HNVizJjh-43" vertex="1">
           <mxGeometry x="30" width="239" height="30" as="geometry">
             <mxRectangle width="239" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -334,30 +360,30 @@
             <mxRectangle width="239" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Eg576fnbaya0GBubzgB0-1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="n-eLuSgu54N9HNVizJjh-42">
-          <mxGeometry y="80" width="269" height="57" as="geometry" />
-        </mxCell>
-        <mxCell id="Eg576fnbaya0GBubzgB0-2" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Eg576fnbaya0GBubzgB0-1">
-          <mxGeometry width="30" height="57" as="geometry">
-            <mxRectangle width="30" height="57" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Eg576fnbaya0GBubzgB0-3" value="revenue_se&#xa;수익구분&#xa;(ad: 광고, hits: 조회수, sp: 협찬, etc: 기타)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Eg576fnbaya0GBubzgB0-1">
-          <mxGeometry x="30" width="239" height="57" as="geometry">
-            <mxRectangle width="239" height="57" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-46" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="n-eLuSgu54N9HNVizJjh-42" vertex="1">
-          <mxGeometry y="137" width="269" height="30" as="geometry" />
+          <mxGeometry y="80" width="269" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-47" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="n-eLuSgu54N9HNVizJjh-46" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n-eLuSgu54N9HNVizJjh-48" value="revenue_de&#xa;수익일자(yyyymmdd)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="n-eLuSgu54N9HNVizJjh-46" vertex="1">
+        <mxCell id="n-eLuSgu54N9HNVizJjh-48" value="revn_de&#xa;수익일자(yyyymmdd)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="n-eLuSgu54N9HNVizJjh-46" vertex="1">
           <mxGeometry x="30" width="239" height="30" as="geometry">
             <mxRectangle width="239" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eg576fnbaya0GBubzgB0-1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="n-eLuSgu54N9HNVizJjh-42">
+          <mxGeometry y="110" width="269" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="Eg576fnbaya0GBubzgB0-2" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Eg576fnbaya0GBubzgB0-1">
+          <mxGeometry width="30" height="57" as="geometry">
+            <mxRectangle width="30" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eg576fnbaya0GBubzgB0-3" value="revn_se&#xa;수익구분&#xa;(ad: 광고, hits: 조회수, sp: 협찬, etc: 기타)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Eg576fnbaya0GBubzgB0-1">
+          <mxGeometry x="30" width="239" height="57" as="geometry">
+            <mxRectangle width="239" height="57" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-114" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="n-eLuSgu54N9HNVizJjh-42" vertex="1">
@@ -368,7 +394,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n-eLuSgu54N9HNVizJjh-116" value="revenue_amt&#xa;수익금액" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="n-eLuSgu54N9HNVizJjh-114" vertex="1">
+        <mxCell id="n-eLuSgu54N9HNVizJjh-116" value="revn_amt&#xa;수익금액" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="n-eLuSgu54N9HNVizJjh-114" vertex="1">
           <mxGeometry x="30" width="239" height="30" as="geometry">
             <mxRectangle width="239" height="30" as="alternateBounds" />
           </mxGeometry>
