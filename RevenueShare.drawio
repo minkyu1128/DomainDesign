@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T08:40:30.258Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="zC_jV-QduwqAJECGyWNI" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T08:46:55.652Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="UMJSfV0iD6AVc4b2vd9a" version="18.0.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2400" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -444,11 +444,11 @@
         <mxCell id="n-eLuSgu54N9HNVizJjh-97" value="&lt;h2&gt;&lt;span style=&quot;background-color: rgb(255, 200, 48);&quot;&gt;1. 회사와 채널은 채널수익 100% 에 대해 수익배분을 수행 한다.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 200, 48);&quot;&gt;2. 크리에이터는 나머지 채널수익 한도 내에서 수익배분을 수행 한다.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 200, 48);&quot;&gt;3. 채널별 크리에이터의 요율 합계는 100% 이어야 한다.&lt;/span&gt;&lt;/h2&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-481" y="170" width="560" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="n-eLuSgu54N9HNVizJjh-101" value="channel_rs_mast&#xa;채널 수익 정산 대장" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="n-eLuSgu54N9HNVizJjh-101" value="channel_rs_mast&#xa;채널 수익배분 대장" style="shape=table;startSize=27;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-570" y="573" width="270" height="320" as="geometry" />
         </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-118" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;labelBackgroundColor=none;" parent="n-eLuSgu54N9HNVizJjh-101" vertex="1">
-          <mxGeometry y="30" width="270" height="30" as="geometry" />
+          <mxGeometry y="27" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-119" value="PK,FK1" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;labelBackgroundColor=none;" parent="n-eLuSgu54N9HNVizJjh-118" vertex="1">
           <mxGeometry width="50" height="30" as="geometry">
@@ -461,7 +461,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-121" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;labelBackgroundColor=none;" parent="n-eLuSgu54N9HNVizJjh-101" vertex="1">
-          <mxGeometry y="60" width="270" height="30" as="geometry" />
+          <mxGeometry y="57" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-122" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;labelBackgroundColor=none;" parent="n-eLuSgu54N9HNVizJjh-121" vertex="1">
           <mxGeometry width="50" height="30" as="geometry">
@@ -474,7 +474,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-105" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;labelBackgroundColor=#FFC830;" parent="n-eLuSgu54N9HNVizJjh-101" vertex="1">
-          <mxGeometry y="90" width="270" height="40" as="geometry" />
+          <mxGeometry y="87" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-106" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;labelBackgroundColor=none;" parent="n-eLuSgu54N9HNVizJjh-105" vertex="1">
           <mxGeometry width="50" height="40" as="geometry">
@@ -487,7 +487,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-108" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;labelBackgroundColor=#FFC830;" parent="n-eLuSgu54N9HNVizJjh-101" vertex="1">
-          <mxGeometry y="130" width="270" height="50" as="geometry" />
+          <mxGeometry y="127" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-109" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;labelBackgroundColor=none;" parent="n-eLuSgu54N9HNVizJjh-108" vertex="1">
           <mxGeometry width="50" height="50" as="geometry">
@@ -500,7 +500,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-111" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;labelBackgroundColor=#FFC830;" parent="n-eLuSgu54N9HNVizJjh-101" vertex="1">
-          <mxGeometry y="180" width="270" height="70" as="geometry" />
+          <mxGeometry y="177" width="270" height="70" as="geometry" />
         </mxCell>
         <mxCell id="n-eLuSgu54N9HNVizJjh-112" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;labelBackgroundColor=none;" parent="n-eLuSgu54N9HNVizJjh-111" vertex="1">
           <mxGeometry width="50" height="70" as="geometry">
@@ -513,7 +513,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9ZQjInUR4tHXLH61BM42-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;labelBackgroundColor=#FFC830;" parent="n-eLuSgu54N9HNVizJjh-101" vertex="1">
-          <mxGeometry y="250" width="270" height="30" as="geometry" />
+          <mxGeometry y="247" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9ZQjInUR4tHXLH61BM42-24" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;labelBackgroundColor=none;" parent="9ZQjInUR4tHXLH61BM42-23" vertex="1">
           <mxGeometry width="50" height="30" as="geometry">
@@ -526,7 +526,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Eg576fnbaya0GBubzgB0-4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;labelBackgroundColor=#FFC830;" vertex="1" parent="n-eLuSgu54N9HNVizJjh-101">
-          <mxGeometry y="280" width="270" height="30" as="geometry" />
+          <mxGeometry y="277" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Eg576fnbaya0GBubzgB0-5" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;labelBackgroundColor=none;" vertex="1" parent="Eg576fnbaya0GBubzgB0-4">
           <mxGeometry width="50" height="30" as="geometry">
