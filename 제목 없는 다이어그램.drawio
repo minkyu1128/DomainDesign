@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-09T09:29:55.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="o_y5XZvJRbtsYnkVWrXR" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-09T09:33:21.893Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="E3SQSf5PKbdBdXrt5SFb" version="21.3.8" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="3540" dy="2163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -667,8 +667,8 @@
         <mxCell id="s8aTRHkVXZxyGGqHwzvx-348" value="&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;시술가능/추천대상자 테이블 항목은 모두 동일하나 추후 항목이 상이해질 여지가 있다고 판단하여 테이블을 분리 함.&lt;br&gt;&lt;/li&gt;&lt;li&gt;시술가능/추천대상자 테이블의&lt;font color=&quot;#ff6666&quot;&gt; &quot;피부타입&quot; 코드는 Enum 으로 관리하여 insert/update 하기 전 유효성 검증 필요&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontColor=#FFFFFF;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="410" width="680" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="s8aTRHkVXZxyGGqHwzvx-349" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;시술별 standard 설정 정립 등 &lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;수집데이터의 유의미한 활용을 &lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;위해서는 &quot;제조사&quot;, &quot;세부모델&quot; 데이터 관리가 필요&lt;/b&gt;&lt;/font&gt;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontColor=#FFFFFF;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="360" y="-440" width="720" height="120" as="geometry" />
+        <mxCell id="s8aTRHkVXZxyGGqHwzvx-349" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;장비별 수집데이터의 유의미한 활용을 &lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;위해서는 &quot;제조사&quot;, &quot;세부모델&quot; 데이터 관리가 필요&lt;/b&gt;&lt;/font&gt;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontColor=#FFFFFF;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-400" width="540" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
