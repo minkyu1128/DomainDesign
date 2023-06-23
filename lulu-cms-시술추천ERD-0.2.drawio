@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-23T04:05:39.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="o0sd5DNmMRvD-2ZPF9xb" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-23T04:07:21.144Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Mbhlo4qwunBo7vjO28bS" version="21.5.0" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="3174" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -481,8 +481,8 @@
             <mxPoint x="-200" y="129" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s8aTRHkVXZxyGGqHwzvx-348" value="&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;시술가능/추천대상자 테이블의&lt;font color=&quot;#ff6666&quot;&gt; &quot;피부타입&quot; 코드는 Enum 으로 관리하여 insert/update 하기 전 유효성 검증 필요&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontColor=#FFFFFF;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-750" y="-230" width="680" height="130" as="geometry" />
+        <mxCell id="s8aTRHkVXZxyGGqHwzvx-348" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;시술가능/추천대상자 테이블의&lt;font color=&quot;#ff6666&quot;&gt; &quot;피부타입&quot; 코드는 Enum 으로 관리하여 insert/update 하기 전 유효성 검증 필요&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontColor=#FFFFFF;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="440" y="-118" width="650" height="130" as="geometry" />
         </mxCell>
         <mxCell id="suNme6-eA1xpTHc4A4N6-63" value="시술 카테고리" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#B2C9AB;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
           <mxGeometry x="30" y="-218" width="160" height="100" as="geometry" />
