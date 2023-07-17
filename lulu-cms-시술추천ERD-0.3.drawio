@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T09:06:00.640Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0CrlYwaTq_bxhSZEsSu6" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-17T10:10:24.071Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6dsm6W3syrPdxwX866_a" version="21.5.0" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="2642" dy="1956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -211,7 +211,7 @@
         <mxCell id="s8aTRHkVXZxyGGqHwzvx-172" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" parent="s8aTRHkVXZxyGGqHwzvx-171" vertex="1" connectable="0">
           <mxGeometry width="30" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vIJIQGhLHLDv0Kq7nWMd-1" value="정가 화폐단위" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" parent="s8aTRHkVXZxyGGqHwzvx-160" vertex="1">
+        <mxCell id="vIJIQGhLHLDv0Kq7nWMd-1" value="정가 화폐단위 코드" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" parent="s8aTRHkVXZxyGGqHwzvx-160" vertex="1">
           <mxGeometry y="212" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vIJIQGhLHLDv0Kq7nWMd-2" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" parent="vIJIQGhLHLDv0Kq7nWMd-1" vertex="1" connectable="0">
@@ -223,7 +223,7 @@
         <mxCell id="suNme6-eA1xpTHc4A4N6-42" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" parent="suNme6-eA1xpTHc4A4N6-41" vertex="1" connectable="0">
           <mxGeometry width="30" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vIJIQGhLHLDv0Kq7nWMd-3" value="할인가 화폐단위" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" parent="s8aTRHkVXZxyGGqHwzvx-160" vertex="1">
+        <mxCell id="vIJIQGhLHLDv0Kq7nWMd-3" value="할인가 화폐단위 코드" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" parent="s8aTRHkVXZxyGGqHwzvx-160" vertex="1">
           <mxGeometry y="264" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vIJIQGhLHLDv0Kq7nWMd-4" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" parent="vIJIQGhLHLDv0Kq7nWMd-3" vertex="1" connectable="0">
