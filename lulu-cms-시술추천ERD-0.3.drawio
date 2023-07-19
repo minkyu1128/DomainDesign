@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T04:56:52.054Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="WwyERtCTltKytmjXIEH4" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T04:57:03.032Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PZV6Nq5j2MNy3yGLFm-A" version="21.6.2" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="2642" dy="1932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -792,7 +792,7 @@
           <mxGeometry width="30" height="10" as="geometry" />
         </mxCell>
         <mxCell id="Vb2O8qSX6tOqTRUZdygF-164" value="&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;시술가능/추천대상자 테이블의&lt;font color=&quot;#ff6666&quot;&gt;&amp;nbsp;&quot;피부타입&quot; 코드는 Enum 으로 관리&lt;/font&gt;&lt;/li&gt;&lt;li&gt;시술가능/추천대상자 테이블 &lt;font color=&quot;#ff6666&quot;&gt;Insert/Update 시 피부타입 데이터 검증&lt;br&gt;&lt;/font&gt;1. 피부타입의 값이 Enum으로 관리하고 있는 코드 목록에 존재하는지&lt;br&gt;2. 피부타입 옵션1~3 선택값에 대해 조합규칙으로 산출된 값의 목록과 일치하는지&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="450" y="-60" width="650" height="130" as="geometry" />
+          <mxGeometry x="408" y="-66" width="650" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
