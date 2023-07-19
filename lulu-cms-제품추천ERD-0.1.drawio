@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T05:28:41.960Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="s-Hp8jyskope2iUfBjZH" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T05:53:22.656Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TI5hxBeQ4ZGN5-D0ViIb" version="21.6.2" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="2642" dy="1932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -208,7 +208,7 @@
             <mxPoint x="-110" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s8aTRHkVXZxyGGqHwzvx-335" value="&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;font&gt;코드관리 방식은 Enum, DB 중 선택&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;DB 방식 사용시 위 부모코드, 코드 테이블 활용&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&quot;성별&quot; 과 같이 향후 확장 및 &lt;u style=&quot;&quot;&gt;&lt;font color=&quot;#ff6666&quot;&gt;변경 확률이 적은 항목에 대해서는 Enum 으로 관리 권장&lt;/font&gt;&lt;/u&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;활용 예는 아래와 같음&lt;br&gt;ex)&amp;nbsp; 시술가능대상자 테이블의 &quot;피부타입 옵션1&quot; 사용 예시&lt;br&gt;step1. 분류코드 등록 -&amp;gt; cl_code=&#39;tratment&#39;, cl_code_nm=&#39;시술&#39;&lt;br&gt;step2. 부모코드 등록 -&amp;gt; p_code=&#39;skin_type&#39;, p_code_nm=&#39;피부타입&#39;&lt;br&gt;step3. 코드 등록&amp;nbsp;&lt;/font&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; -&amp;gt;&amp;nbsp;p_code=&#39;skin_type&#39;,&amp;nbsp;code=&#39;dry&#39;,&amp;nbsp;code_nm=&#39;건조&#39;&lt;br&gt;&amp;nbsp; &amp;nbsp; -&amp;gt;&amp;nbsp;p_code=&#39;skin_type&#39;,&amp;nbsp;code=&#39;normal&#39;,&amp;nbsp;code_nm=&#39;보통&#39;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;※분류코드 테이블은 필수 사항은 아니지만&lt;br&gt;사용 시 화장품,시술 등과 같이 도메인별 사용 코드 관리가 가능하므로 확장 및 유지관리에 용이 함&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;labelBackgroundColor=default;" parent="1" vertex="1">
+        <mxCell id="s8aTRHkVXZxyGGqHwzvx-335" value="&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;업무 테이블의 코드성 데이터는 위 공통코드 테이블 활용하여 관리&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;활용 예는 아래와 같음&lt;br&gt;ex)&amp;nbsp; 시술가능대상자 테이블의 &quot;피부타입 옵션1&quot; 사용 예시&lt;br&gt;step1. 분류코드 등록 -&amp;gt; cl_code=&#39;tratment&#39;, cl_code_nm=&#39;시술&#39;&lt;br&gt;step2. 부모코드 등록 -&amp;gt; p_code=&#39;skin_type&#39;, p_code_nm=&#39;피부타입&#39;&lt;br&gt;step3. 코드 등록&amp;nbsp;&lt;/font&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; -&amp;gt;&amp;nbsp;p_code=&#39;skin_type&#39;,&amp;nbsp;code=&#39;dry&#39;,&amp;nbsp;code_nm=&#39;건조&#39;&lt;br&gt;&amp;nbsp; &amp;nbsp; -&amp;gt;&amp;nbsp;p_code=&#39;skin_type&#39;,&amp;nbsp;code=&#39;normal&#39;,&amp;nbsp;code_nm=&#39;보통&#39;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;※분류코드 테이블은 필수 사항은 아니지만&lt;br&gt;화장품,시술 등과 같이 도메인별 사용되는 코드 관리가 가능하고 확장 및 유지관리에 용이하기에 권고 함.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-670" y="230" width="540" height="260" as="geometry" />
         </mxCell>
         <mxCell id="s8aTRHkVXZxyGGqHwzvx-336" value="분류코드" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#B2C9AB;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
@@ -667,6 +667,58 @@
             <mxPoint x="330" y="490" as="sourcePoint" />
             <mxPoint x="430" y="390" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-OS_wRwdG3Yrzp-EU8W0-136" value="지점 화장품" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#B2C9AB;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="770" y="20" width="200" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="-OS_wRwdG3Yrzp-EU8W0-137" value="지점화장품ID" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;html=1;align=left;verticalAlign=middle;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="-OS_wRwdG3Yrzp-EU8W0-136">
+          <mxGeometry y="26" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-OS_wRwdG3Yrzp-EU8W0-138" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" connectable="0" parent="-OS_wRwdG3Yrzp-EU8W0-137">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-OS_wRwdG3Yrzp-EU8W0-139" value="지점 코드" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="-OS_wRwdG3Yrzp-EU8W0-136">
+          <mxGeometry y="56" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-OS_wRwdG3Yrzp-EU8W0-140" value="FK" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" connectable="0" parent="-OS_wRwdG3Yrzp-EU8W0-139">
+          <mxGeometry width="30" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-OS_wRwdG3Yrzp-EU8W0-169" value="화장품ID" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="-OS_wRwdG3Yrzp-EU8W0-136">
+          <mxGeometry y="82" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-OS_wRwdG3Yrzp-EU8W0-170" value="FK" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" connectable="0" parent="-OS_wRwdG3Yrzp-EU8W0-169">
+          <mxGeometry width="30" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-OS_wRwdG3Yrzp-EU8W0-167" value="" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="-OS_wRwdG3Yrzp-EU8W0-136">
+          <mxGeometry y="108" width="200" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="-OS_wRwdG3Yrzp-EU8W0-168" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" connectable="0" parent="-OS_wRwdG3Yrzp-EU8W0-167">
+          <mxGeometry width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="-OS_wRwdG3Yrzp-EU8W0-171" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" edge="1" parent="1" source="s8aTRHkVXZxyGGqHwzvx-161" target="-OS_wRwdG3Yrzp-EU8W0-169">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="250" y="-163" as="sourcePoint" />
+            <mxPoint x="310" y="99" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="-160" />
+              <mxPoint x="-10" y="20" />
+              <mxPoint />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-OS_wRwdG3Yrzp-EU8W0-172" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" edge="1" parent="1" source="yD0bjzbKo4kkje4cAU-9-39" target="-OS_wRwdG3Yrzp-EU8W0-139">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="260" y="-153" as="sourcePoint" />
+            <mxPoint x="320" y="109" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="-150" />
+              <mxPoint y="30" />
+              <mxPoint x="10" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-OS_wRwdG3Yrzp-EU8W0-173" value="&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;제품 목록 Grid 출력 시 사용자의 HQ코드 및 지점코드가 일치하는 모든 브랜드 화장품 리스트업&lt;/li&gt;&lt;li&gt;제품 목 Grid의&amp;nbsp; &quot;In Use&quot; 활성화 시&amp;nbsp; 지점 화장품 DB에 insert, 비활성화 시 delete&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="750" y="140" width="300" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
