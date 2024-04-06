@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-06T01:32:51.152Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ALk13U3Pt2OBGpOL54ot" version="24.2.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-06T01:44:28.437Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="JDfMk6FNtiBPSM3nuahE" version="24.2.1" type="github" pages="2">
   <diagram name="Page-1" id="9eaEAvctxoFh2Qdqf6u7">
     <mxGraphModel dx="1736" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -251,7 +251,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWuOinmSYjJ5tBn27S7f-33" value="ENS B/O App" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;rounded=1;strokeColor=default;strokeWidth=3;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="UxweI9CZ7ki0fJo2VMlg-2" vertex="1">
+        <mxCell id="MWuOinmSYjJ5tBn27S7f-33" value="ENS Client APP" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;rounded=1;strokeColor=default;strokeWidth=3;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="UxweI9CZ7ki0fJo2VMlg-2" vertex="1">
           <mxGeometry x="633.2808121890453" y="286.27110434159613" width="59.080466015197494" height="68.34242859010936" as="geometry" />
         </mxCell>
         <mxCell id="MWuOinmSYjJ5tBn27S7f-34" value="RDS" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;rounded=1;strokeColor=default;strokeWidth=3;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="UxweI9CZ7ki0fJo2VMlg-2" vertex="1">
@@ -362,8 +362,8 @@
         <mxCell id="UBtLXbySQoWfHC7Nqryj-5" value="&lt;h1&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;인터넷과 통신되는 DMZ존, 내부 직원만 접근 가능한 Private존으로 분리구성&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;DMZ Zone:&lt;/font&gt;&lt;/b&gt; WAS/WAS 서버 등..&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Private Zone:&lt;/font&gt;&lt;/b&gt; DB 서버 등..&lt;/font&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=#4D4D4D;" parent="1" vertex="1">
           <mxGeometry x="720" y="-720" width="430" height="670" as="geometry" />
         </mxCell>
-        <mxCell id="R8hxeZKJct404Ir0xVYc-1" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 26px;&quot;&gt;ENS 서비스 Cloud 구성안&lt;/h1&gt;&lt;p style=&quot;font-size: 26px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="-1630" width="330" height="60" as="geometry" />
+        <mxCell id="R8hxeZKJct404Ir0xVYc-1" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 26px;&quot;&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;ENS Cloud 서비스 구성안&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-1630" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
