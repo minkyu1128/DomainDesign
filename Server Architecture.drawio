@@ -624,7 +624,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SejbFJW0x4ybAQSno-hn" name="룰루랩 서버 아키텍처">
-    <mxGraphModel dx="2074" dy="1959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -657,7 +657,7 @@
             <mxPoint x="614.75" y="411.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vi1s64Mn5JI-8ngTUu3w-4" value="WEBSDK API" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="Vi1s64Mn5JI-8ngTUu3w-4" value="WebSDK API" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="367.25" y="365" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="Vi1s64Mn5JI-8ngTUu3w-5" value="LuLu Admin" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontStyle=1" parent="1" vertex="1">
@@ -669,19 +669,17 @@
         <mxCell id="Vi1s64Mn5JI-8ngTUu3w-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="137.25" y="237.5" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Vi1s64Mn5JI-8ngTUu3w-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ueRDN1zvA1ITbYhg_JWb-22" target="Vi1s64Mn5JI-8ngTUu3w-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="417.25" y="241" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Vi1s64Mn5JI-8ngTUu3w-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ueRDN1zvA1ITbYhg_JWb-22" target="Vi1s64Mn5JI-8ngTUu3w-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="387.25" y="281" as="sourcePoint" />
             <mxPoint x="230" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vi1s64Mn5JI-8ngTUu3w-3" value="SSO" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="533.25" y="221" width="76.5" height="93" as="geometry" />
+        <mxCell id="g0ZXxav96NZWtvy3_Mrr-5" value="License Registration&lt;br&gt;(예정)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vi1s64Mn5JI-8ngTUu3w-3" target="g0ZXxav96NZWtvy3_Mrr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vi1s64Mn5JI-8ngTUu3w-3" value="LuLu Admin&lt;br&gt;(License Manage)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="625" y="210" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="Vi1s64Mn5JI-8ngTUu3w-21" value="CMS DB" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="617.25" y="521" width="72" height="81" as="geometry" />
@@ -704,7 +702,7 @@
         <mxCell id="Vi1s64Mn5JI-8ngTUu3w-29" value="SSO&lt;br&gt;(Authorization Code workflow)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="541" y="940" width="76.5" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="Vi1s64Mn5JI-8ngTUu3w-42" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;MOBILE&lt;br&gt;(websdk)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Vi1s64Mn5JI-8ngTUu3w-42" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;MOBILE&lt;br&gt;(WebSDK)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="30" y="100" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vi1s64Mn5JI-8ngTUu3w-43" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;CRM &amp;amp; CMS&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -754,7 +752,7 @@
         <mxCell id="ueRDN1zvA1ITbYhg_JWb-12" value="CRM DB" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="630" y="-476" width="72" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="ueRDN1zvA1ITbYhg_JWb-13" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;KIOSK&lt;br&gt;(sdk)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ueRDN1zvA1ITbYhg_JWb-13" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;KIOSK&lt;br&gt;(SDK)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="35" y="-720" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ueRDN1zvA1ITbYhg_JWb-24" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -782,6 +780,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="870" y="780" as="sourcePoint" />
             <mxPoint x="920" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g0ZXxav96NZWtvy3_Mrr-3" value="Redis" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elasticache;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="170" width="67.5" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="g0ZXxav96NZWtvy3_Mrr-4" value="License validation" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Vi1s64Mn5JI-8ngTUu3w-4" target="g0ZXxav96NZWtvy3_Mrr-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="350" as="sourcePoint" />
+            <mxPoint x="600" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
